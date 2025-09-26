@@ -1,0 +1,86 @@
+/*
+filename: lab04.css
+author: Doan Viet Anh
+created: 9/26/2025
+last modified: 9/26/2025
+description: CSS styles for lab04.html - Basic HTML elements styling exercise
+*/
+
+/* Set default font and text color for all elements */
+* { 
+    font-family: calibri, sans-serif; 
+    color: #2F4F4F;
+}
+
+/* Main page heading with purple color and bigger text */
+h1 { 
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+/* Secondary headings with teal color and bold styling */
+h2 {
+    color: rgb(0,128,128);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* All headings use Arial font */
+h1, h2, h3 {
+    font-family: arial, sans-serif;
+}
+
+/* Italic text for aside and footer */
+aside, footer { 
+    font-style: italic; 
+}
+
+/* Basic border styling for table */
+table, th, td {
+    border: 1px solid black;
+}
+
+/* Center align the Images heading */
+#images {
+    text-align: center;
+}
+
+/* Red color for the specific Headings sub-section */
+#headings-h3 {
+    color: red;
+}
+
+/* Orange and bold styling for special characters */
+.special {
+    color: darkorange;
+    font-weight: bold;
+}
+
+/* Right alignment for specific table headers */
+.right-align {
+    text-align: right;
+}
+
+/* Navigation Styles */
+nav a {
+    text-decoration: none;
+    padding: 0.2em 0.6em;
+    border: 4px solid #ccc;
+}
+
+/* Hover effects */
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
+
+/* Square type for bullet points */
+ol ul {
+    list-style-type: square;
+}
+
+/* Hide aside on hover */
+aside:hover {
+    display: none;
+}
